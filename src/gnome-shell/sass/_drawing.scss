@@ -44,13 +44,13 @@
   }
 
   @if $size == headline {
-    font-size: pt(24px);
+    font-size: pt(28px);
     font-weight: 400;
     // line-height: 32px;
   }
 
   @if $size == title {
-    font-size: pt(20px);
+    font-size: pt(24px);
     font-weight: 500;
     // line-height: 1;
   }
@@ -74,7 +74,7 @@
   }
 
   @if $size == caption {
-    font-size: pt(12px);
+    font-size: pt(16px);
     font-weight: 400;
     // line-height: 1;
   }

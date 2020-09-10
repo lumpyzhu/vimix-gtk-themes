@@ -24,7 +24,7 @@
 
 stage {
   font-family: "M+ 1c", Roboto, Cantarell, Sans-Serif;
-  font-size: 10.5pt;
+  font-size: 16.5pt;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -36,7 +36,7 @@ stage {
   padding: 0 16px;
   border-width: 0;
   border-radius: 2px;
-  font-size: 10.5pt;
+  font-size: 16.5pt;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.54);
   background-color: transparent;
@@ -85,7 +85,7 @@ stage {
   padding: 0 16px;
   border-top: 1px solid rgba(0, 0, 0, 0.12) !important;
   border-right-width: 0;
-  font-size: 10.5pt;
+  font-size: 16.5pt;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.54);
   background-color: transparent;
@@ -152,7 +152,7 @@ StEntry {
   color: rgba(0, 0, 0, 0.87);
   selection-background-color: #4586D8;
   selected-color: #FFFFFF;
-  font-size: 12pt;
+  font-size: 19.5pt;
   font-weight: 400;
   background-color: rgba(255, 255, 255, 0.01);
   border-color: transparent;
@@ -364,7 +364,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 /* Modal Dialogs */
 .headline {
-  font-size: 15pt;
+  font-size: 18pt;
   font-weight: 500;
 }
 
@@ -411,7 +411,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .mount-dialog-subject,
 .end-session-dialog-subject {
-  font-size: 15pt;
+  font-size: 18pt;
   font-weight: 500;
 }
 
@@ -612,7 +612,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .prompt-dialog .message-dialog-title {
-  font-size: 15pt;
+  font-size: 18pt;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.87);
 }
@@ -950,7 +950,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .popup-menu-arrow,
 .popup-menu-icon {
-  icon-size: 1.1428571429em;
+  icon-size: 1.0909090909em;
 }
 
 .background-menu {
@@ -1210,7 +1210,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel .panel-button .system-status-icon {
-  icon-size: 1.1428571429em;
+  icon-size: 1.0909090909em;
   padding: 0 4px;
 }
 
@@ -1362,7 +1362,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .datemenu-today-button .date-label {
-  font-size: 18pt;
+  font-size: 21pt;
   font-weight: 400;
 }
 
@@ -1382,11 +1382,12 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .calendar-month-label {
-  height: 24px;
+  height: 28px;
   margin: 2px;
   padding: 6px 16px;
   border-radius: 2px;
   color: rgba(0, 0, 0, 0.87);
+  font-size: 14px;
   font-weight: bold;
   text-align: center;
 }
@@ -1431,7 +1432,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .calendar-day-base {
-  font-size: 9pt;
+  font-size: 12pt;
   font-weight: 400;
   text-align: center;
   width: 32px;
@@ -1466,7 +1467,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   border-radius: 100px;
   background-color: transparent;
   color: rgba(0, 0, 0, 0.38);
-  font-size: 9pt;
+  font-size: 12pt;
   font-weight: 400;
   font-weight: bold;
   text-align: center;
@@ -1593,7 +1594,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .message-icon-bin > StIcon {
   color: rgba(0, 0, 0, 0.87);
-  icon-size: 1.1428571429em;
+  icon-size: 1.0909090909em;
   -st-icon-style: requested;
   margin: 4px 0px 4px 4px;
 }
@@ -1617,7 +1618,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .message-secondary-bin > StIcon {
-  icon-size: 1.1428571429em;
+  icon-size: 1.0909090909em;
 }
 
 .message-title {
@@ -1815,7 +1816,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .nm-dialog-header {
-  font-size: 15pt;
+  font-size: 18pt;
   font-weight: 500;
 }
 
@@ -1963,7 +1964,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .list-search-result-title {
-  font-size: 12pt;
+  font-size: 19.5pt;
   font-weight: 400;
   color: #FFFFFF;
   spacing: 12px;
@@ -2365,7 +2366,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .notification-banner .secondary-icon {
-  icon-size: 1.1428571429em;
+  icon-size: 1.0909090909em;
 }
 
 .notification-banner .notification-actions {
@@ -2416,7 +2417,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .secondary-icon {
-  icon-size: 1.1428571429em;
+  icon-size: 1.0909090909em;
 }
 
 .chat-body {
@@ -2456,7 +2457,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .chat-meta-message {
   padding-left: 4px;
-  font-size: 9pt;
+  font-size: 12pt;
   font-weight: 400;
   color: rgba(0, 0, 0, 0.38);
 }
@@ -2706,7 +2707,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .candidate-page-button-icon {
-  icon-size: 1.1428571429em;
+  icon-size: 1.0909090909em;
 }
 
 /* Auth Dialogs & Screen Shield */
@@ -2949,7 +2950,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .login-dialog-username,
 .user-widget-label {
   color: #FFFFFF;
-  font-size: 15pt;
+  font-size: 18pt;
   font-weight: 500;
   text-align: left;
   padding-left: 15px;
@@ -3159,7 +3160,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
   padding: 0 16px;
   border: none;
   border-radius: 2px;
-  font-size: 10.5pt;
+  font-size: 16.5pt;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.54);
   background-color: transparent;
@@ -3223,7 +3224,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 .lg-extension-name {
-  font-size: 18pt;
+  font-size: 21pt;
   font-weight: 400;
 }
 

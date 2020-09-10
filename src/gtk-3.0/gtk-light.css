@@ -1860,7 +1860,7 @@ headerbar.default-decoration button.titlebutton {
   margin: 0;
   padding: 0;
   transition: 100ms;
-  background-size: 16px 16px;
+  background-size: 22px 22px;
 }
 
 
@@ -2751,8 +2751,8 @@ scrollbar.right {
 
 scrollbar slider {
   transition: all 100ms cubic-bezier(0, 0, 0.2, 1), margin 0, border-width 0;
-  min-width: 5px;
-  min-height: 5px;
+  min-width: 10px;
+  min-height: 10px;
   border: 3px solid transparent;
   border-radius: 100px;
   background-clip: padding-box;
@@ -4440,7 +4440,7 @@ window.background.chromium headerbar.titlebar button.titlebutton, #MozillaGtkWid
   background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 16px 16px;
+  background-size: 22px 22px;
 }
 
 window.background.chromium headerbar.titlebar button.titlebutton:hover, #MozillaGtkWidget.background headerbar.titlebar.default-decoration button.titlebutton:hover, .csd headerbar:not(.default-decoration) button.titlebutton.close:hover, .csd headerbar:not(.default-decoration) button.titlebutton.maximize:hover, .csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.close:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.maximize:hover, .solid-csd headerbar:not(.default-decoration) button.titlebutton.minimize:hover, headerbar button.titlebutton.close:hover, .csd headerbar button.titlebutton.close:hover, .solid-csd headerbar button.titlebutton.close:hover, headerbar.default-decoration button.titlebutton.close:hover, .csd headerbar.default-decoration button.titlebutton.close:hover,

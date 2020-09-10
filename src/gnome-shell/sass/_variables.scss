@@ -8,8 +8,8 @@ $font-family: "M+ 1c", Roboto, Cantarell, Sans-Serif;
 $large-font-family: Roboto, "M+ 1c", Cantarell, Sans-Serif;
 
 // font sizes
-$root-font-size: if($laptop == 'false', 14px, 13px);
-$subheading-size: if($laptop == 'false', 16px, 15px);
+$root-font-size: if($laptop == 'false', 22px, 20px);
+$subheading-size: if($laptop == 'false', 26px, 24px);
 
 // opacities
 $higher_opacity: 0.9;

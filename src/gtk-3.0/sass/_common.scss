@@ -1389,7 +1389,7 @@ headerbar {
       margin: 0;
       padding: 0;
       transition: $shorter_duration;
-      background-size: 16px 16px;
+      background-size: 22px 22px;
 
       &:hover, &:active {
         background-size: 22px 22px;
@@ -2297,8 +2297,8 @@ scrollbar {
   // slider
   slider {
     transition: $shorter_transition, margin 0, border-width 0;
-    min-width: 5px;
-    min-height: 5px;
+    min-width: 10px;
+    min-height: 10px;
     border: 3px solid transparent;
     border-radius: 100px;
     background-clip: padding-box;
@@ -3812,7 +3812,7 @@ decoration {
   background-color: transparent;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: 16px 16px;
+  background-size: 22px 22px;
 
   &:hover, &:active, &:checked {
     box-shadow: none;
