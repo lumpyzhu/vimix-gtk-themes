@@ -2162,7 +2162,7 @@ notebook {
       min-width: $small_size;
       padding: $container_padding 12px;
 
-      outline-offset: -6px;
+      outline-offset: -1px;
 
       border-width: 1px;         // for reorderable tabs
       border-color: transparent; //
@@ -2175,7 +2175,8 @@ notebook {
       background-size: 0% 0%;
 
       color: $secondary_fg_color;
-      font-weight: 500;
+      font-size: 16px;
+      font-weight: bold;
 
       &:hover {
         color: $fg_color;
@@ -2209,8 +2210,8 @@ notebook {
       // close button
       // colors the button like the label, overridden otherwise
       button.flat {
-           min-height: 24px;
-           min-width: 24px;
+           min-height: 20px;
+           min-width: 20px;
            padding: 0;
            border-radius: $circular_radius;
            -gtk-outline-radius: $circular_radius;
@@ -2220,8 +2221,8 @@ notebook {
     &.top,
     &.bottom {
       tabs {
-        padding-left: 8px;
-        padding-right: 8px;
+        padding-left: 0px;
+        padding-right: 0px;
 
         &:not(:only-child) {
           &:first-child { margin-left: 0; }
@@ -2240,8 +2241,8 @@ notebook {
     &.left,
     &.right {
       tabs {
-        padding-top: 8px;
-        padding-bottom: 8px;
+        padding-top: 1px;
+        padding-bottom: 1px;
 
         &:not(:only-child) {
           &:first-child { margin-top: 0; }

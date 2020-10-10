@@ -40,9 +40,9 @@ for color in "${_COLOR_VARIANTS[@]}"; do
   done
 done
 
-for theme in "${_THEME_VARIANTS[@]}"; do
-  sassc $SASSC_OPT src/cinnamon/cinnamon${theme}.{scss,css}
-  echo "==> Generating the cinnamon${theme}.css..."
-  sassc $SASSC_OPT src/cinnamon/cinnamon-dark${theme}.{scss,css}
-  echo "==> Generating the cinnamon-dark${theme}.css..."
-done
+#for theme in "${_THEME_VARIANTS[@]}"; do
+#  sassc $SASSC_OPT src/cinnamon/cinnamon${theme}.{scss,css}
+#  echo "==> Generating the cinnamon${theme}.css..."
+#  sassc $SASSC_OPT src/cinnamon/cinnamon-dark${theme}.{scss,css}
+#  echo "==> Generating the cinnamon-dark${theme}.css..."
+#done

@@ -123,40 +123,40 @@ install() {
   ln -s assets/no-notifications.svg no-notifications.svg
 
   #  Install metacity theme
-  mkdir -p                                                                              ${THEME_DIR}/metacity-1
-  cp -r ${SRC_DIR}/metacity-1/assets/*.png                                              ${THEME_DIR}/metacity-1
-  cp -r ${SRC_DIR}/metacity-1/metacity-theme-3.xml                                      ${THEME_DIR}/metacity-1
-  cp -r ${SRC_DIR}/metacity-1/metacity-theme-1${color}${theme}.xml                      ${THEME_DIR}/metacity-1/metacity-theme-1.xml
-  cp -r ${SRC_DIR}/metacity-1/thumbnail${color}.png                                     ${THEME_DIR}/metacity-1/thumbnail.png
-
-  cd ${THEME_DIR}/metacity-1 && ln -s metacity-theme-1.xml metacity-theme-2.xml
+  #mkdir -p                                                                              ${THEME_DIR}/metacity-1
+  #cp -r ${SRC_DIR}/metacity-1/assets/*.png                                              ${THEME_DIR}/metacity-1
+  #cp -r ${SRC_DIR}/metacity-1/metacity-theme-3.xml                                      ${THEME_DIR}/metacity-1
+  #cp -r ${SRC_DIR}/metacity-1/metacity-theme-1${color}${theme}.xml                      ${THEME_DIR}/metacity-1/metacity-theme-1.xml
+  #cp -r ${SRC_DIR}/metacity-1/thumbnail${color}.png                                     ${THEME_DIR}/metacity-1/thumbnail.png
+  #
+  #cd ${THEME_DIR}/metacity-1 && ln -s metacity-theme-1.xml metacity-theme-2.xml
 
   #  Install xfwm4 theme
-  mkdir -p                                                                              ${THEME_DIR}/xfwm4
-  cp -r ${SRC_DIR}/xfwm4/themerc${color}                                                ${THEME_DIR}/xfwm4/themerc
-
-  [[ ${no_color} == '' ]] && \
-  cp -r ${SRC_DIR}/xfwm4/assets${color}${theme}/*.png                                   ${THEME_DIR}/xfwm4
-
-  [[ ${theme} == '' && ${no_color} == 'true' ]] && \
-  cp -r ${SRC_DIR}/xfwm4/assets${color}-contrast/*.png                                  ${THEME_DIR}/xfwm4
+  #mkdir -p                                                                              ${THEME_DIR}/xfwm4
+  #cp -r ${SRC_DIR}/xfwm4/themerc${color}                                                ${THEME_DIR}/xfwm4/themerc
+  #
+  #[[ ${no_color} == '' ]] && \
+  #cp -r ${SRC_DIR}/xfwm4/assets${color}${theme}/*.png                                   ${THEME_DIR}/xfwm4
+  #
+  #[[ ${theme} == '' && ${no_color} == 'true' ]] && \
+  #cp -r ${SRC_DIR}/xfwm4/assets${color}-contrast/*.png                                  ${THEME_DIR}/xfwm4
 
   #  Install unity theme
   # mkdir -p                                                                              ${THEME_DIR}/unity
-  cp -r ${SRC_DIR}/unity                                                                ${THEME_DIR}
-
-  mkdir -p                                                                              ${THEME_DIR}/plank
-  cp -r ${SRC_DIR}/plank/dock${ELSE_LIGHT}.theme                                        ${THEME_DIR}/plank/dock.theme
+  #cp -r ${SRC_DIR}/unity                                                                ${THEME_DIR}
+  #
+  #mkdir -p                                                                              ${THEME_DIR}/plank
+  #cp -r ${SRC_DIR}/plank/dock${ELSE_LIGHT}.theme                                        ${THEME_DIR}/plank/dock.theme
 
   #  Install cinnamon theme
-  mkdir -p                                                                              ${THEME_DIR}/cinnamon
-  cp -r ${SRC_DIR}/cinnamon/cinnamon${ELSE_DARK}${theme}.css                            ${THEME_DIR}/cinnamon/cinnamon.css
-  cp -r ${SRC_DIR}/cinnamon/assets${theme}/common-assets                                ${THEME_DIR}/cinnamon/assets
-  cp -r ${SRC_DIR}/cinnamon/assets${theme}/assets${ELSE_DARK}/checkbox/*.svg            ${THEME_DIR}/cinnamon/assets/checkbox
-  cp -r ${SRC_DIR}/cinnamon/assets${theme}/assets${ELSE_DARK}/menu/*.svg                ${THEME_DIR}/cinnamon/assets/menu
-  cp -r ${SRC_DIR}/cinnamon/assets${theme}/assets${ELSE_DARK}/misc/*.svg                ${THEME_DIR}/cinnamon/assets/misc
-  cp -r ${SRC_DIR}/cinnamon/assets${theme}/assets${ELSE_DARK}/switch/*.svg              ${THEME_DIR}/cinnamon/assets/switch
-  cp -r ${SRC_DIR}/cinnamon/thumbnail${ELSE_DARK}${theme}.png                           ${THEME_DIR}/cinnamon/thumbnail.png
+  #mkdir -p                                                                              ${THEME_DIR}/cinnamon
+  #cp -r ${SRC_DIR}/cinnamon/cinnamon${ELSE_DARK}${theme}.css                            ${THEME_DIR}/cinnamon/cinnamon.css
+  #cp -r ${SRC_DIR}/cinnamon/assets${theme}/common-assets                                ${THEME_DIR}/cinnamon/assets
+  #cp -r ${SRC_DIR}/cinnamon/assets${theme}/assets${ELSE_DARK}/checkbox/*.svg            ${THEME_DIR}/cinnamon/assets/checkbox
+  #cp -r ${SRC_DIR}/cinnamon/assets${theme}/assets${ELSE_DARK}/menu/*.svg                ${THEME_DIR}/cinnamon/assets/menu
+  #cp -r ${SRC_DIR}/cinnamon/assets${theme}/assets${ELSE_DARK}/misc/*.svg                ${THEME_DIR}/cinnamon/assets/misc
+  #cp -r ${SRC_DIR}/cinnamon/assets${theme}/assets${ELSE_DARK}/switch/*.svg              ${THEME_DIR}/cinnamon/assets/switch
+  #cp -r ${SRC_DIR}/cinnamon/thumbnail${ELSE_DARK}${theme}.png                           ${THEME_DIR}/cinnamon/thumbnail.png
 }
 
 #  Check command avalibility
