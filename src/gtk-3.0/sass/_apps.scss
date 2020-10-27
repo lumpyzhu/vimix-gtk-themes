@@ -377,8 +377,6 @@ paned.titlebar.horizontal { // show border
 /* Only normal state is handle */
 .open-document-selector-path-label {
   color: gtkalpha(currentColor, $hint_opacity);
-  font-size: normal;
-
   // @extend .dim-label;
 }
 
